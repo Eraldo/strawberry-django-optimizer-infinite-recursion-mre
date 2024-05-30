@@ -20,14 +20,6 @@ query ColorWithFruits {
     edges {
       node {
         id
-        fruits(filters: {name: {startsWith: "Straw"}}) {
-          edges {
-            node {
-              id
-              name
-            }
-          }
-        }
       }
     }
   }

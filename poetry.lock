@@ -35,6 +35,17 @@ argon2 = ["argon2-cffi (>=19.1.0)"]
 bcrypt = ["bcrypt"]
 
 [[package]]
+name = "django-ordered-model"
+version = "3.7.1"
+description = "Allows Django models to be ordered and provides a simple admin interface for reordering them."
+optional = false
+python-versions = "*"
+files = [
+    {file = "django-ordered-model-3.7.1.tar.gz", hash = "sha256:d9b12b7be596c1870870a606e550ef29c71b919e46754b05500ec741bc8bb21b"},
+    {file = "django_ordered_model-3.7.1-py3-none-any.whl", hash = "sha256:8f1c56fa18b3b9b4d931b3575e611a71acff15cc34334bba1348a90a0d70d910"},
+]
+
+[[package]]
 name = "graphql-core"
 version = "3.2.3"
 description = "GraphQL implementation for Python, a port of GraphQL.js, the JavaScript reference implementation for GraphQL."
@@ -165,4 +176,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "c436cd4f31b415b8097c1f9a3278c990c4d6753cda241b943dc4fcdefae34a1c"
+content-hash = "18100a96d1d19e8a7c055b234305e6d14662346ada49b36380c7bb67cc2ac599"
