@@ -14,18 +14,17 @@ http://127.0.0.1:8000/graphql
 
 Enter query:
 ```graphql
-query ColorWithFruits {
-  colors(first: 1) {
+query OrderedFruits {
+  fruits {
     totalCount
     edges {
       node {
         id
+        name
       }
     }
   }
-  
-  fruits(filters: {name: {startsWith: "Straw"}}) {
-    totalCount
-  }
 }
 ```
+
+=> Confirm the error message. ;)
